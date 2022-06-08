@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "수서회중 전시대",
+    "slug": "cong-public-native",
+    "version": "1.8.5",
+    "android": {
+      "package": "codes.codehub.cong.public",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "codes.codehub.cong.public",
+      "supportsTablet": true
+    },
+    "notification": {
+      "icon": "assets/images/icon.png",
+      "androidMode": "collapse",
+      "androidCollapsedTitle": "수서회중 전시대"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
